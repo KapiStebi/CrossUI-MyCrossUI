@@ -23,11 +23,20 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Label")
                 .setHost(host,"xui_ui_label7")
-                .setLeft("16em")
-                .setTop("19.047619047619047em")
+                .setLeft("-1.5238095238095237em")
+                .setTop("12.952380952380953em")
                 .setWidth("22.247619047619047em")
                 .setHeight("5.0285714285714285em")
                 .setCaption("MOJA APLIKACJA")
+            );
+            
+            append(
+                xui.create("xui.UI.Panel")
+                .setHost(host,"xui_ui_panel4")
+                .setDock("none")
+                .setLeft("11.428571428571429em")
+                .setTop("8.380952380952381em")
+                .setCaption("Panel")
             );
             
             return children;
